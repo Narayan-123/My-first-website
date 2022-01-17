@@ -1,0 +1,254 @@
+*{
+	/*background-color: whitesmoke;*/
+	margin: 0;
+	padding: 0;
+	font-family: centuri gothic;
+}
+header{
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+     overflow: auto;
+     height: 100vh;
+	 background-size: cover;
+	 background-position: center;
+	 transition: 1.5s ease;
+}
+
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 17px;
+}
+
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 3px;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5px;
+	width: 120px;
+	height: 75px;
+}
+.webtittle {
+	color: white;
+	margin-top: 10px;
+	padding-left: 2%;
+}
+.webtittle h2{
+     font-size: 22px;
+}
+.webtittle h1{
+     padding-top: 1pt;
+}
+.proj{
+	color: white;
+	position: absolute;
+	font-size: 15px;
+	top: 17%;
+	left: 10%;
+}
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+/*position: relative;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+    height: 80px;
+}
+
+.social ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 25px;
+}
+.social ul li{
+	display: inline-block;
+}
+
+.social ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 5px;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.social ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.images {
+   margin-top: 14%;
+    list-style-type: none;
+}
+.imagestwo {
+   margin-top:;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+	header{
+			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+    
+    height: 140vh;
+    padding-bottom: ;
+	background-size: cover;
+	background-position: center;
+    transition: 1.6s ease;
+	/*background-color: blue;
+    height: 50px;*/
+ 	}
+.logo img{
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 80px;
+	height: 50px;
+}
+.webtittle {
+		color: white;
+	font-size: 12px;
+   /* padding: 30px 30px 20px;*/
+	/*position: absolute;*/
+	float: ;
+	transform: translate(4%, 7%);
+/*	color: white;
+	font-size: 12px;
+   /* padding: 30px 30px 20px;*/
+	/*position: absolute;
+	float: right;
+	transform: translate(49%, 1%);*/
+}
+.webtittle h2{
+     font-size: 17px;
+}
+.main ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 17px;
+}
+
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 1px;
+	padding: 4px 9px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+/*.background{
+	background-color: whitesmoke;
+}*/
+h3{
+	text-decoration: underline;
+	color: white;
+	float: left;
+	font-size: 25px;
+	margin: 12% 10%;
+}
+.proj{
+	position: ;
+	max-width: 320px;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,10);
+	font-size: 15px; 
+	top: 32%;
+}
+.proj ul{
+	line-height: 25px;
+	padding: 15px;
+}
+.background{
+margin-top: 450px;
+
+}
+.images{
+	max-width: 300px;
+	margin: auto;
+	position: relative;
+
+}
+.imagestwo{
+	max-width: 300px;
+	margin: auto;
+	position: relative;
+
+}
+
+
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+	background-size: cover;
+	background-position: bottom;
+    height: 100px;
+}
+
+.social ul{
+	list-style-type: none;
+	position: center;
+	margin-top: 28px;
+	margin-right: 45px;
+}
+.social ul li{
+	display: inline-block;
+}
+
+.social ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 5px;
+	padding: 4px 9px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.social ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+}

@@ -1,0 +1,310 @@
+*{
+	/*background-color: whitesmoke;*/
+	margin: 0;
+	padding: 0;
+	font-family: centuri gothic;
+}
+header{
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+	 overflow: auto;
+     height: 100vh;
+	background-size: cover;
+	background-position: center;
+	transition: 1.5s ease;
+	/*background-color: blue;
+    height: 50px;*/
+}
+
+.main ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 17px;
+}
+
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 3px;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	/*margin-top: 30px;*/
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5px;
+	width: 120px;
+	height: 75px;
+}
+.webtittle /*h5*/{
+	color: white;
+	margin-top: 10px;
+	padding-left: 2%;
+	/*font-size: 50px;*/
+   /* padding: 30px 30px 20px;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+}
+.webtittle h2{
+     font-size: 22px;
+}
+.webtittle h1{
+     padding-top: 1pt;
+}
+.submit-title{
+	 text-align: center;
+     margin-top: 100px;
+	 color: #fff;
+	 text-transform: uppercase;
+}
+.submit-title h3{
+	text-decoration: underline;
+	font-size: 32px;
+	line-height: 10px;
+}
+
+form{
+	color: #fff;
+	text-align: center;
+}
+
+.form-control{
+	width: 33%;
+	background: transparent;
+	border: none;
+
+	outline: none;
+	border-bottom: 1px solid white;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.form-control-text{
+	width: 33%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	box-shadow: 0 0 1px;
+}
+
+input{
+	height: 45px;
+}
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit :hover{
+	background-color: #f44336;
+    cursor: pointer;
+}
+footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+
+	background-size: cover;
+	background-position: center;
+    height: 80px;
+}
+
+.social ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 25px;
+}
+.social ul li{
+	display: inline-block;
+}
+
+.social ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 5px;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.social ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+	header{
+		padding-bottom: 10%
+	}
+.logo img{
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 80px;
+	height: 50px;
+}
+.webtittle /*h5*/{
+	color: white;
+	font-size: 12px;
+   /* padding: 30px 30px 20px;*/
+	/*position: absolute;*/
+	float: ;
+	transform: translate(4%, 7%);
+}
+.webtittle h2{
+     font-size: 17px;
+}
+.submit-title{
+	margin-top: 150px;
+	 color: #fff;
+	 text-transform: uppercase;
+}
+.submit-title h3{
+	text-decoration: underline;
+	font-size: 20px;
+}
+form{
+	color: #fff;
+	text-align: center;
+}
+.form-control{
+	width: 320px;
+	background: transparent;
+	border: none;
+
+	outline: none;
+	border-bottom: 1px solid white;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+.form-control-text{
+	width: 320px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	box-shadow: 0 0 1px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+}
+form .submit :hover{
+	background-color: #f44336;
+    cursor: pointer;
+}
+.main ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.main ul li{
+	display: inline-block;
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 1px;
+	padding: 5px 9px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fot2.jpg);
+	background-size: cover;
+	background-position: bottom;
+    height: 100px;
+}
+
+.social ul{
+	list-style-type: none;
+	position: center;
+	margin-top: 28px;
+	margin-right: 45px;
+}
+.social ul li{
+	display: inline-block;
+}
+
+.social ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 5px;
+	padding: 4px 9px;
+	border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.social ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+}
